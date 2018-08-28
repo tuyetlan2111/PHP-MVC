@@ -1,0 +1,146 @@
+.detail .image img{
+    width:60%;
+}
+body{
+    background: #F4F4F4 !important;
+}
+.detail{
+    padding: 0px!important;
+    margin-top: 50px;
+    background: #ffffff;
+}
+.detail .image{
+    margin: 50px 10px;
+}
+.detail .content{
+    margin-left: -20px;
+    border-left: 1px solid #ECECEC;
+}
+.detail a{
+    color: #27AE61;
+    text-decoration: none;
+}
+.detail .content h3{
+    font-size: 29px;
+    font-weight: bold;
+}
+.detail span,p{
+    font-size: 18px;
+    color: #666666;
+}
+.detail p span{
+    color: #27AE61;
+    font-size: 21px;
+    font-weight: bold;
+}
+.product-addon-item .product-gift{
+    max-width: 360px;
+    font-size: 13px;
+}
+#giftMessage{
+    margin-bottom: 17px;
+}
+#giftMessage p{
+    margin-left: 36px;
+    line-height: 18px;
+}
+#giftMessage img{
+    float: left;
+    margin-right: 11px;
+}
+.detail p{
+    margin: 10px 0px;
+}
+.detail button{
+    color: #ffffff;
+    background: #27AE61;
+    font-size: 20px;
+    margin-bottom: 13px;
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+
+}
+.box{
+    padding: 0px !important;
+}
+.quantity p{
+    color: #000000;
+    font-size: 18px;
+}
+.quantity button{
+    float: left;
+    color: #000000;
+    background: none;
+    margin-bottom: 13px;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid #dfdfdf;
+    padding: 0px 10px;
+    
+}
+.quantity input.form-control{
+    width: 22%;
+    height: 30px;
+    padding: 0px 13px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    float: left;
+}
+.box button.add{
+    margin-top: 19px !important;
+}
+
+.tap_des{
+    padding: 0px;
+    margin-top: 40px;
+}
+.tap_des h5{
+    margin-right: 16px;
+    float: left;
+    color: #ffffff;
+    background: #27AE61;
+    font-size: 24px;
+    border: 1px solid #afaaaa;
+    padding: 10px;
+    border-radius: 4px;
+
+}
+.related_product{
+    padding: 0px !important;
+}
+.related_product h2{
+     font-size: 25px;
+     padding: 16px;
+    position: relative;
+    font-weight: bold;
+    background: #F4F4F4 !important;
+    padding-bottom: 9px;
+}
+#list-releted .item img{
+    width: 50%;
+
+}
+.contact_detail .item .icon{
+    margin-right: 7px;
+    float: left;
+    font-size: 22px;
+}
+.contact_detail{
+    border: 1px solid #ECECEC;
+    padding: 5px;
+}
+span.author{
+    border-bottom: 1px solid #ECECEC;
+    display: block;
+    padding-bottom: 20px;
+}
+/*************res**********/
+@media(max-width: 640px){
+.detail .content h3{
+    font-size: 15px;
+}
+.detail .content button{
+    font-size: 13px;
+    padding: 0px;
+}
+}
